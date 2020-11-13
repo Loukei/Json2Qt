@@ -1,0 +1,543 @@
+{
+    "kind": "drive#about",
+    "user": {
+     "kind": "drive#user",
+     "displayName": "weber Luo",
+     "photoLink": "https://lh3.googleusercontent.com/a-/AOh14Gi6a_juQYnXGEahUiAET5rsBNesRu3463VtTpVTeQ=s64",
+     "me": true,
+     "permissionId": "00511296637986567681",
+     "emailAddress": "weber781015@gmail.com"
+    },
+    "storageQuota": {
+     "limit": "16106127360",
+     "usage": "4067266057",
+     "usageInDrive": "2829006303",
+     "usageInDriveTrash": "270764546"
+    },
+    "importFormats": {
+     "application/x-vnd.oasis.opendocument.presentation": [
+      "application/vnd.google-apps.presentation"
+     ],
+     "text/tab-separated-values": [
+      "application/vnd.google-apps.spreadsheet"
+     ],
+     "image/jpeg": [
+      "application/vnd.google-apps.document"
+     ],
+     "image/bmp": [
+      "application/vnd.google-apps.document"
+     ],
+     "image/gif": [
+      "application/vnd.google-apps.document"
+     ],
+     "application/vnd.ms-excel.sheet.macroenabled.12": [
+      "application/vnd.google-apps.spreadsheet"
+     ],
+     "application/vnd.openxmlformats-officedocument.wordprocessingml.template": [
+      "application/vnd.google-apps.document"
+     ],
+     "application/vnd.ms-powerpoint.presentation.macroenabled.12": [
+      "application/vnd.google-apps.presentation"
+     ],
+     "application/vnd.ms-word.template.macroenabled.12": [
+      "application/vnd.google-apps.document"
+     ],
+     "application/vnd.openxmlformats-officedocument.wordprocessingml.document": [
+      "application/vnd.google-apps.document"
+     ],
+     "image/pjpeg": [
+      "application/vnd.google-apps.document"
+     ],
+     "application/vnd.google-apps.script+text/plain": [
+      "application/vnd.google-apps.script"
+     ],
+     "application/vnd.ms-excel": [
+      "application/vnd.google-apps.spreadsheet"
+     ],
+     "application/vnd.sun.xml.writer": [
+      "application/vnd.google-apps.document"
+     ],
+     "application/vnd.ms-word.document.macroenabled.12": [
+      "application/vnd.google-apps.document"
+     ],
+     "application/vnd.ms-powerpoint.slideshow.macroenabled.12": [
+      "application/vnd.google-apps.presentation"
+     ],
+     "text/rtf": [
+      "application/vnd.google-apps.document"
+     ],
+     "application/vnd.oasis.opendocument.spreadsheet": [
+      "application/vnd.google-apps.spreadsheet"
+     ],
+     "text/plain": [
+      "application/vnd.google-apps.document"
+     ],
+     "application/x-vnd.oasis.opendocument.spreadsheet": [
+      "application/vnd.google-apps.spreadsheet"
+     ],
+     "application/x-vnd.oasis.opendocument.text": [
+      "application/vnd.google-apps.document"
+     ],
+     "image/png": [
+      "application/vnd.google-apps.document"
+     ],
+     "application/msword": [
+      "application/vnd.google-apps.document"
+     ],
+     "application/pdf": [
+      "application/vnd.google-apps.document"
+     ],
+     "application/x-msmetafile": [
+      "application/vnd.google-apps.drawing"
+     ],
+     "application/vnd.openxmlformats-officedocument.spreadsheetml.template": [
+      "application/vnd.google-apps.spreadsheet"
+     ],
+     "application/vnd.ms-powerpoint": [
+      "application/vnd.google-apps.presentation"
+     ],
+     "application/vnd.ms-excel.template.macroenabled.12": [
+      "application/vnd.google-apps.spreadsheet"
+     ],
+     "image/x-bmp": [
+      "application/vnd.google-apps.document"
+     ],
+     "application/rtf": [
+      "application/vnd.google-apps.document"
+     ],
+     "application/vnd.openxmlformats-officedocument.presentationml.template": [
+      "application/vnd.google-apps.presentation"
+     ],
+     "image/x-png": [
+      "application/vnd.google-apps.document"
+     ],
+     "text/html": [
+      "application/vnd.google-apps.document"
+     ],
+     "application/vnd.oasis.opendocument.text": [
+      "application/vnd.google-apps.document"
+     ],
+     "application/vnd.openxmlformats-officedocument.presentationml.presentation": [
+      "application/vnd.google-apps.presentation"
+     ],
+     "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": [
+      "application/vnd.google-apps.spreadsheet"
+     ],
+     "application/vnd.google-apps.script+json": [
+      "application/vnd.google-apps.script"
+     ],
+     "application/vnd.openxmlformats-officedocument.presentationml.slideshow": [
+      "application/vnd.google-apps.presentation"
+     ],
+     "application/vnd.ms-powerpoint.template.macroenabled.12": [
+      "application/vnd.google-apps.presentation"
+     ],
+     "text/csv": [
+      "application/vnd.google-apps.spreadsheet"
+     ],
+     "application/vnd.oasis.opendocument.presentation": [
+      "application/vnd.google-apps.presentation"
+     ],
+     "image/jpg": [
+      "application/vnd.google-apps.document"
+     ],
+     "text/richtext": [
+      "application/vnd.google-apps.document"
+     ]
+    },
+    "exportFormats": {
+     "application/vnd.google-apps.document": [
+      "application/rtf",
+      "application/vnd.oasis.opendocument.text",
+      "text/html",
+      "application/pdf",
+      "application/epub+zip",
+      "application/zip",
+      "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "text/plain"
+     ],
+     "application/vnd.google-apps.spreadsheet": [
+      "application/x-vnd.oasis.opendocument.spreadsheet",
+      "text/tab-separated-values",
+      "application/pdf",
+      "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "text/csv",
+      "application/zip",
+      "application/vnd.oasis.opendocument.spreadsheet"
+     ],
+     "application/vnd.google-apps.jam": [
+      "application/pdf"
+     ],
+     "application/vnd.google-apps.script": [
+      "application/vnd.google-apps.script+json"
+     ],
+     "application/vnd.google-apps.presentation": [
+      "application/vnd.oasis.opendocument.presentation",
+      "application/pdf",
+      "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "text/plain"
+     ],
+     "application/vnd.google-apps.form": [
+      "application/zip"
+     ],
+     "application/vnd.google-apps.drawing": [
+      "image/svg+xml",
+      "image/png",
+      "application/pdf",
+      "image/jpeg"
+     ],
+     "application/vnd.google-apps.site": [
+      "text/plain"
+     ]
+    },
+    "maxImportSizes": {
+     "application/vnd.google-apps.document": "10485760",
+     "application/vnd.google-apps.spreadsheet": "104857600",
+     "application/vnd.google-apps.presentation": "104857600",
+     "application/vnd.google-apps.drawing": "2097152"
+    },
+    "maxUploadSize": "5242880000000",
+    "appInstalled": false,
+    "folderColorPalette": [
+     "#ac725e",
+     "#d06b64",
+     "#f83a22",
+     "#fa573c",
+     "#ff7537",
+     "#ffad46",
+     "#fad165",
+     "#fbe983",
+     "#b3dc6c",
+     "#7bd148",
+     "#16a765",
+     "#42d692",
+     "#92e1c0",
+     "#9fe1e7",
+     "#9fc6e7",
+     "#4986e7",
+     "#9a9cff",
+     "#b99aff",
+     "#a47ae2",
+     "#cd74e6",
+     "#f691b2",
+     "#cca6ac",
+     "#cabdbf",
+     "#8f8f8f"
+    ],
+    "teamDriveThemes": [
+     {
+      "id": "abacus",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/Z5KeSUwxyWmRT9HGiVoXxqEp-KcWLSAkEgs3EgSHghCRi1_xPNFwdXbll6ivkDDqhtKabFeH1hw5fT3uDEmYDRVH3cNUXklNfZ0M8yuJ5Bwgu4w-vg=w1920-h216-n",
+      "colorRgb": "#ea6100"
+     },
+     {
+      "id": "blueprints",
+      "backgroundImageLink": "https://lh3.googleusercontent.com/proxy/UjEpDwYsn-r3TcmSB4k58Z-cKBa_KWgNy5F9sx-O2KGGTJXNXODqmxLJY999NCZG80WDFvs93nF3ISv_qGEiI5slt5eyoFxBCWKuFm873RZEqPy-E6GN4a8=w1920-h216-n",
+      "colorRgb": "#4285f4"
+     },
+     {
+      "id": "bok_choy",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/xVkWcsvjuebP-UnWCIJp6fEqRUHwIJObjK5KawhB-ReWImKOVk5FnbhqnirdhAuZLS3VWAqnks3-3SDjhQMePR15YYfuF7stMy1R14jdcd2WyhSLex00=w1920-h216-n",
+      "colorRgb": "#689f38"
+     },
+     {
+      "id": "books",
+      "backgroundImageLink": "https://lh4.googleusercontent.com/proxy/6Ok-qHt6muyfFg1x3Nd3y9M_iRUH5_aJRXq9JlTE6Z3a67qUFeVTdpLG80OBKpOtMXXffAPXtHMRkAMbzR-Q1e_dCqCntJAkV_q3U4VftNYC3k_V=w1920-h216-n",
+      "colorRgb": "#4285f4"
+     },
+     {
+      "id": "bread",
+      "backgroundImageLink": "https://lh3.googleusercontent.com/proxy/laR76MvgkpxgcFyKbLRlDHThRQ4PLNNwbzuHzSr_uQAOzxCdGhLFBsdMHk_jVWlFBlLSyqODOoLkCaO_lhmu_9zB1_z81r7fPVDjVL007HcvxXHc=w1920-h216-n",
+      "colorRgb": "#ef6c00"
+     },
+     {
+      "id": "bubbles_color",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/E3mV_x9XxkOnITzjKrPB0k8U1Cl6I_gqIff5aswwKAAnd7XtXCDQXgu_CMnLI8kbaPqoiqF695_eSyrp5d2Fp-OGeK-_WtpNU3LQAZNCQjYHzd1I1V-uw_Zmkco=w1920-h216-n",
+      "colorRgb": "#f06292"
+     },
+     {
+      "id": "circuit",
+      "backgroundImageLink": "https://lh3.googleusercontent.com/proxy/d_WN5RlW-1zH2gW_Kxj7hHqITZtlM7Zv-WlmBhdq6_43BeEHVxwCIhsqdxdWtCn2FYLH3bdPf0GeR3UCa9B2uXDrfwMOhnOaGwmJxAHLbC9K9Yp0VOg=w1920-h216-n",
+      "colorRgb": "#039be5"
+     },
+     {
+      "id": "clams",
+      "backgroundImageLink": "https://lh4.googleusercontent.com/proxy/LlctuQjxc_XPvwI_INV2KqcfflGjEreBmM2mFXp_5q24UUblES7O1yMNJYYtyMrpcvkziHO8Pyqd0OcvQyRBmNgQE3QI4vD88GMuCHPrd5E1NNl3=w1920-h216-n",
+      "colorRgb": "#e91e63"
+     },
+     {
+      "id": "clovers",
+      "backgroundImageLink": "https://lh4.googleusercontent.com/proxy/29RzK7cLA_mP_eh3Z0oAgElcC2DstGo9ujJNHecUyeoUIRbJ1npk_KhoNRtvBb5ZPVuv8dU5C5D0Ei18I_IPu_12ptLNoOioOvTAp_G9p0omV8gfHBg=w1920-h216-n",
+      "colorRgb": "#689f38"
+     },
+     {
+      "id": "cocktails",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/qVcF-uCcRs4eNsZFZHKDIiN_qdO20ifgGhQpi1t94SFzROGTb-1Kik2dbJ9_gk9G-QMawqhVQ_OVBE_5ZRAiqjhImQyfGSnnND7BEK1SiQYzRi_LpVfZnQ=w1920-h216-n",
+      "colorRgb": "#db4437"
+     },
+     {
+      "id": "concert",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/4rVgd0sxbyBKn2AF41Xn5alyAxc0nOgDAb6y1T3FnX6vntT6QQ0m8QgUlpr2J5rYLfCF9xh2cuGV7QxRSC13Ws2kgaDuf0Iopac-ZCBF6kgg40KXyCQ=w1920-h216-n",
+      "colorRgb": "#ef6c00"
+     },
+     {
+      "id": "desk",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/UzcLkepaZHw5GeAzjagJdp7-2DGaBMcj-9TU-X3o4PD1x_kQByZO_r-RDmBxS1iLzsq_MDEq4U_3w_qpTY_6VThyMPNk-Tz9lSEBUXXx-2ZclKA=w1920-h216-n",
+      "colorRgb": "#607d8b"
+     },
+     {
+      "id": "donut_coffee",
+      "backgroundImageLink": "https://lh5.googleusercontent.com/proxy/7Vo64b_mo3aTCFRR5JrnmwVrkeigpQuVpT0mOfsBbK_kdvyNVGY3b9CsrTj0t7E7_iMMg1g3GRltFQuCIuQ7vEUUVuWgxXgycBJhYdgAkUVoQK_Y_BwE2Yh3ng=w1920-h216-n",
+      "colorRgb": "#f06292"
+     },
+     {
+      "id": "fabric_rolls",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/aTqxoPupRaxlFYZDmlKz-ijfIYlHBPKk4ykKx_QO7P9r2HQzMlbKyPW6ZoslKMs7NMWeoFxi1sCcX_LLBop27LjO3Kd5H9_oa1UymAO_QtFHmHVrcxCNiIW2UA=w1920-h216-n",
+      "colorRgb": "#78909c"
+     },
+     {
+      "id": "flags",
+      "backgroundImageLink": "https://lh5.googleusercontent.com/proxy/D3i9Q2ZRdKAbGOFcE_zEOgRv2fX07_IDsfUdRBc4Kcwz8yBySLesQtcCM8wfdDxAlX3GqUueFwBdAU2HWuDib0uFsNgikds0N-iLhgdBEHDM3Gt9=w1920-h216-n",
+      "colorRgb": "#009688"
+     },
+     {
+      "id": "flower_field",
+      "backgroundImageLink": "https://lh4.googleusercontent.com/proxy/Gq6BmAzf26j19jOlJSFuQmFUobewCcVkInfjlXCVOCU1Sp-GuieGumKHiaK9oAOpD-NICfQJukjbqNzlCG90O0XKj0VnDR0abL2N7KCy6wIJIoIvOoqgvzCaww=w1920-h216-n",
+      "colorRgb": "#e06055"
+     },
+     {
+      "id": "flowers",
+      "backgroundImageLink": "https://lh3.googleusercontent.com/proxy/u56F0E7fTV972JarM1Q-rXAOOy-Zg-v5-Cm27-sKiV2hGdA3eeA1T9O1id4BfcuRdq46vXBbZT_tTl0JZNL4Ut0OMyh8op3IxOBGzKJpff9F7rVRCxw=w1920-h216-n",
+      "colorRgb": "#689f38"
+     },
+     {
+      "id": "glass",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/VPVLsbZj78Z8xpPMbAWjSF56mJZNw1Kyg7kN9LQ_pH6OA9z2v76rxC_8phHUXRst25qqFBRx14KxHwCDojH9ibzK3didVAx0g-uJqlb5s8-oz3ms=w1920-h216-n",
+      "colorRgb": "#0f9d58"
+     },
+     {
+      "id": "lighthouse",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/Pwl1rZFnKYnNRcSnIMnc_TsHX0E3OqbDuNT-yy3Ms9uUUjDGgGL21EQEYhoTdCN97pTSFRB086aNass2Kfk0mYOn0lnz-Vk2MrNJ1XrDkvwLmHCnliA-nL4=w1920-h216-n",
+      "colorRgb": "#4285f4"
+     },
+     {
+      "id": "maps",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/L8IbQigKrftSXEMsch8rXdBtZvlUiRZBfxIYiWbpp7S6oze0HZZ_QRcYP_EbEfkgZDU1QxGsVZffBzCRvhpPkgHhG53wVgj7M_nRxVZmOk-Lni0=w1920-h216-n",
+      "colorRgb": "#8d6e63"
+     },
+     {
+      "id": "mountains",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/1EIk6eaGyGTBI-Uug-G3KCwS_kE9esUIergJ2ohfcq5fmlMIYCDLtDbJgNSbAzQ6xB8VAKiE5w5jAYk3BofnuOpz5ccrcuuHwsamC2F34WOBg2_U9CJJwg=w1920-h216-n",
+      "colorRgb": "#5c6bc0"
+     },
+     {
+      "id": "notebook",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/iUd07dcNVNr6BO13gIGLhyorUezYWoxRf6nSJhT6nRK_NVvP3ABZAWS7vtXSZ6Th25OJ6q-mcYcHVE8pg4WrA9fZE8oVevnyuwLEOzOVHcH4IGac0Vto=w1920-h216-n",
+      "colorRgb": "#689f38"
+     },
+     {
+      "id": "paper_colored",
+      "backgroundImageLink": "https://lh5.googleusercontent.com/proxy/crERnz0f_KJZ7mN9iBmz5_AQiLGyaGNQfmu_kOocXzLChlK84r2aPp6AodqrG42sRv1yk_Og_DEuBIumug6wC6j9EcrZ1tqs6tTtH3SvtqDAkyK4MBbIMNBPAKs=w1920-h216-n",
+      "colorRgb": "#9c27b0"
+     },
+     {
+      "id": "pencils",
+      "backgroundImageLink": "https://lh5.googleusercontent.com/proxy/joaq8StlNK7Cp-apow03w_sP5HukbIrAHbZQRZJqpBhERCGYrixxXinALZ26nQ8N2o7NrR2reO4cGNJtfFnRQ9CtSnvXEjI3qM7uygrLlG3v573k71k=w1920-h216-n",
+      "colorRgb": "#0097a7"
+     },
+     {
+      "id": "roofing_metal",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/pP_tp2yMg1wR-SzCbN9_w-mKyNXyquaaYakAvjv9hFGHGFJ6JLCvZYlpVabm-kXAaEUgg2odQ-GTZ4HyAaTOaEfPmxjYTqWyrAnGnSQ1RPMlOT2y3rtmsPF2FF0=w1920-h216-n",
+      "colorRgb": "#039be5"
+     },
+     {
+      "id": "sticky_notes",
+      "backgroundImageLink": "https://lh5.googleusercontent.com/proxy/UQ3zURt8as-FSzUcbkQQno8Dtk1oHeh38CyecfxIhSZArj6OIQ_ZTFR4sblspJxgHCKJKs4DSZB35UR4ReFEkN2SPo7OWqDRnMaz_MsMaVBXv0lw8kC_PTqfuQ=w1920-h216-n",
+      "colorRgb": "#0097a7"
+     },
+     {
+      "id": "table",
+      "backgroundImageLink": "https://lh5.googleusercontent.com/proxy/0A5qGh2DnHThdgzOJuZymFC7vt5aYKky-QWAuFjVROgK2Bxe47CT1sz72FhocQp0L-Lro5fK5kXKW5-uyVE7f-LhgokET-_Ndhe8BRQaGKzMhgms=w1920-h216-n",
+      "colorRgb": "#8d6e63"
+     },
+     {
+      "id": "travel",
+      "backgroundImageLink": "https://lh4.googleusercontent.com/proxy/eM-1oz45F6dCfOFQ2Yxr3ONAO7a549babd4jdMsBTqMErAeJ7fsk8EGPkDWi3IWoXxOA-cbftgzIDm0W7UCkepfhrONB_si1f8JfD3I0tt8IDT5hdA=w1920-h216-n",
+      "colorRgb": "#039be5"
+     },
+     {
+      "id": "waves",
+      "backgroundImageLink": "https://lh4.googleusercontent.com/proxy/MZfhMLHMVQQCU6ynMhZ_G_Byd4Yk2-zzKFADDpRM33LnFr9nRha-K3Iyk07IUOaQyuOPtMPVHkQ9-q13e2tXQMaDcF6DsTCnSxJBimZAQ5thT3lU=w1920-h216-n",
+      "colorRgb": "#ff5722"
+     },
+     {
+      "id": "waves_blue",
+      "backgroundImageLink": "https://lh3.googleusercontent.com/proxy/3culsw3bJyewo0Ql3IiKWm3HNeT54oEzDTVgNasW_V4L0FBZ-hazADPgfmLs06VL2p8b0vSyq9JFbtChXgRBAVX3iSZJeuRF19HYMwrOakDqL3GQMl_lZZ0=w1920-h216-n",
+      "colorRgb": "#5c6bc0"
+     },
+     {
+      "id": "wood",
+      "backgroundImageLink": "https://lh4.googleusercontent.com/proxy/FzzFqxrPJvhI24W_ZIbk7TNz3AYOArCU2m0UG4FNhc_2XPXGgcoF9B8FBIz6PsIctYn8aI5NKnU1NlsjHQEpu0DsMnEG8SDNopZZnwVzcFuQ3X4=w1920-h216-n",
+      "colorRgb": "#8d6e63"
+     }
+    ],
+    "driveThemes": [
+     {
+      "id": "abacus",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/Z5KeSUwxyWmRT9HGiVoXxqEp-KcWLSAkEgs3EgSHghCRi1_xPNFwdXbll6ivkDDqhtKabFeH1hw5fT3uDEmYDRVH3cNUXklNfZ0M8yuJ5Bwgu4w-vg=w1920-h216-n",
+      "colorRgb": "#ea6100"
+     },
+     {
+      "id": "blueprints",
+      "backgroundImageLink": "https://lh3.googleusercontent.com/proxy/UjEpDwYsn-r3TcmSB4k58Z-cKBa_KWgNy5F9sx-O2KGGTJXNXODqmxLJY999NCZG80WDFvs93nF3ISv_qGEiI5slt5eyoFxBCWKuFm873RZEqPy-E6GN4a8=w1920-h216-n",
+      "colorRgb": "#4285f4"
+     },
+     {
+      "id": "bok_choy",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/xVkWcsvjuebP-UnWCIJp6fEqRUHwIJObjK5KawhB-ReWImKOVk5FnbhqnirdhAuZLS3VWAqnks3-3SDjhQMePR15YYfuF7stMy1R14jdcd2WyhSLex00=w1920-h216-n",
+      "colorRgb": "#689f38"
+     },
+     {
+      "id": "books",
+      "backgroundImageLink": "https://lh4.googleusercontent.com/proxy/6Ok-qHt6muyfFg1x3Nd3y9M_iRUH5_aJRXq9JlTE6Z3a67qUFeVTdpLG80OBKpOtMXXffAPXtHMRkAMbzR-Q1e_dCqCntJAkV_q3U4VftNYC3k_V=w1920-h216-n",
+      "colorRgb": "#4285f4"
+     },
+     {
+      "id": "bread",
+      "backgroundImageLink": "https://lh3.googleusercontent.com/proxy/laR76MvgkpxgcFyKbLRlDHThRQ4PLNNwbzuHzSr_uQAOzxCdGhLFBsdMHk_jVWlFBlLSyqODOoLkCaO_lhmu_9zB1_z81r7fPVDjVL007HcvxXHc=w1920-h216-n",
+      "colorRgb": "#ef6c00"
+     },
+     {
+      "id": "bubbles_color",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/E3mV_x9XxkOnITzjKrPB0k8U1Cl6I_gqIff5aswwKAAnd7XtXCDQXgu_CMnLI8kbaPqoiqF695_eSyrp5d2Fp-OGeK-_WtpNU3LQAZNCQjYHzd1I1V-uw_Zmkco=w1920-h216-n",
+      "colorRgb": "#f06292"
+     },
+     {
+      "id": "circuit",
+      "backgroundImageLink": "https://lh3.googleusercontent.com/proxy/d_WN5RlW-1zH2gW_Kxj7hHqITZtlM7Zv-WlmBhdq6_43BeEHVxwCIhsqdxdWtCn2FYLH3bdPf0GeR3UCa9B2uXDrfwMOhnOaGwmJxAHLbC9K9Yp0VOg=w1920-h216-n",
+      "colorRgb": "#039be5"
+     },
+     {
+      "id": "clams",
+      "backgroundImageLink": "https://lh4.googleusercontent.com/proxy/LlctuQjxc_XPvwI_INV2KqcfflGjEreBmM2mFXp_5q24UUblES7O1yMNJYYtyMrpcvkziHO8Pyqd0OcvQyRBmNgQE3QI4vD88GMuCHPrd5E1NNl3=w1920-h216-n",
+      "colorRgb": "#e91e63"
+     },
+     {
+      "id": "clovers",
+      "backgroundImageLink": "https://lh4.googleusercontent.com/proxy/29RzK7cLA_mP_eh3Z0oAgElcC2DstGo9ujJNHecUyeoUIRbJ1npk_KhoNRtvBb5ZPVuv8dU5C5D0Ei18I_IPu_12ptLNoOioOvTAp_G9p0omV8gfHBg=w1920-h216-n",
+      "colorRgb": "#689f38"
+     },
+     {
+      "id": "cocktails",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/qVcF-uCcRs4eNsZFZHKDIiN_qdO20ifgGhQpi1t94SFzROGTb-1Kik2dbJ9_gk9G-QMawqhVQ_OVBE_5ZRAiqjhImQyfGSnnND7BEK1SiQYzRi_LpVfZnQ=w1920-h216-n",
+      "colorRgb": "#db4437"
+     },
+     {
+      "id": "concert",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/4rVgd0sxbyBKn2AF41Xn5alyAxc0nOgDAb6y1T3FnX6vntT6QQ0m8QgUlpr2J5rYLfCF9xh2cuGV7QxRSC13Ws2kgaDuf0Iopac-ZCBF6kgg40KXyCQ=w1920-h216-n",
+      "colorRgb": "#ef6c00"
+     },
+     {
+      "id": "desk",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/UzcLkepaZHw5GeAzjagJdp7-2DGaBMcj-9TU-X3o4PD1x_kQByZO_r-RDmBxS1iLzsq_MDEq4U_3w_qpTY_6VThyMPNk-Tz9lSEBUXXx-2ZclKA=w1920-h216-n",
+      "colorRgb": "#607d8b"
+     },
+     {
+      "id": "donut_coffee",
+      "backgroundImageLink": "https://lh5.googleusercontent.com/proxy/7Vo64b_mo3aTCFRR5JrnmwVrkeigpQuVpT0mOfsBbK_kdvyNVGY3b9CsrTj0t7E7_iMMg1g3GRltFQuCIuQ7vEUUVuWgxXgycBJhYdgAkUVoQK_Y_BwE2Yh3ng=w1920-h216-n",
+      "colorRgb": "#f06292"
+     },
+     {
+      "id": "fabric_rolls",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/aTqxoPupRaxlFYZDmlKz-ijfIYlHBPKk4ykKx_QO7P9r2HQzMlbKyPW6ZoslKMs7NMWeoFxi1sCcX_LLBop27LjO3Kd5H9_oa1UymAO_QtFHmHVrcxCNiIW2UA=w1920-h216-n",
+      "colorRgb": "#78909c"
+     },
+     {
+      "id": "flags",
+      "backgroundImageLink": "https://lh5.googleusercontent.com/proxy/D3i9Q2ZRdKAbGOFcE_zEOgRv2fX07_IDsfUdRBc4Kcwz8yBySLesQtcCM8wfdDxAlX3GqUueFwBdAU2HWuDib0uFsNgikds0N-iLhgdBEHDM3Gt9=w1920-h216-n",
+      "colorRgb": "#009688"
+     },
+     {
+      "id": "flower_field",
+      "backgroundImageLink": "https://lh4.googleusercontent.com/proxy/Gq6BmAzf26j19jOlJSFuQmFUobewCcVkInfjlXCVOCU1Sp-GuieGumKHiaK9oAOpD-NICfQJukjbqNzlCG90O0XKj0VnDR0abL2N7KCy6wIJIoIvOoqgvzCaww=w1920-h216-n",
+      "colorRgb": "#e06055"
+     },
+     {
+      "id": "flowers",
+      "backgroundImageLink": "https://lh3.googleusercontent.com/proxy/u56F0E7fTV972JarM1Q-rXAOOy-Zg-v5-Cm27-sKiV2hGdA3eeA1T9O1id4BfcuRdq46vXBbZT_tTl0JZNL4Ut0OMyh8op3IxOBGzKJpff9F7rVRCxw=w1920-h216-n",
+      "colorRgb": "#689f38"
+     },
+     {
+      "id": "glass",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/VPVLsbZj78Z8xpPMbAWjSF56mJZNw1Kyg7kN9LQ_pH6OA9z2v76rxC_8phHUXRst25qqFBRx14KxHwCDojH9ibzK3didVAx0g-uJqlb5s8-oz3ms=w1920-h216-n",
+      "colorRgb": "#0f9d58"
+     },
+     {
+      "id": "lighthouse",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/Pwl1rZFnKYnNRcSnIMnc_TsHX0E3OqbDuNT-yy3Ms9uUUjDGgGL21EQEYhoTdCN97pTSFRB086aNass2Kfk0mYOn0lnz-Vk2MrNJ1XrDkvwLmHCnliA-nL4=w1920-h216-n",
+      "colorRgb": "#4285f4"
+     },
+     {
+      "id": "maps",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/L8IbQigKrftSXEMsch8rXdBtZvlUiRZBfxIYiWbpp7S6oze0HZZ_QRcYP_EbEfkgZDU1QxGsVZffBzCRvhpPkgHhG53wVgj7M_nRxVZmOk-Lni0=w1920-h216-n",
+      "colorRgb": "#8d6e63"
+     },
+     {
+      "id": "mountains",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/1EIk6eaGyGTBI-Uug-G3KCwS_kE9esUIergJ2ohfcq5fmlMIYCDLtDbJgNSbAzQ6xB8VAKiE5w5jAYk3BofnuOpz5ccrcuuHwsamC2F34WOBg2_U9CJJwg=w1920-h216-n",
+      "colorRgb": "#5c6bc0"
+     },
+     {
+      "id": "notebook",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/iUd07dcNVNr6BO13gIGLhyorUezYWoxRf6nSJhT6nRK_NVvP3ABZAWS7vtXSZ6Th25OJ6q-mcYcHVE8pg4WrA9fZE8oVevnyuwLEOzOVHcH4IGac0Vto=w1920-h216-n",
+      "colorRgb": "#689f38"
+     },
+     {
+      "id": "paper_colored",
+      "backgroundImageLink": "https://lh5.googleusercontent.com/proxy/crERnz0f_KJZ7mN9iBmz5_AQiLGyaGNQfmu_kOocXzLChlK84r2aPp6AodqrG42sRv1yk_Og_DEuBIumug6wC6j9EcrZ1tqs6tTtH3SvtqDAkyK4MBbIMNBPAKs=w1920-h216-n",
+      "colorRgb": "#9c27b0"
+     },
+     {
+      "id": "pencils",
+      "backgroundImageLink": "https://lh5.googleusercontent.com/proxy/joaq8StlNK7Cp-apow03w_sP5HukbIrAHbZQRZJqpBhERCGYrixxXinALZ26nQ8N2o7NrR2reO4cGNJtfFnRQ9CtSnvXEjI3qM7uygrLlG3v573k71k=w1920-h216-n",
+      "colorRgb": "#0097a7"
+     },
+     {
+      "id": "roofing_metal",
+      "backgroundImageLink": "https://lh6.googleusercontent.com/proxy/pP_tp2yMg1wR-SzCbN9_w-mKyNXyquaaYakAvjv9hFGHGFJ6JLCvZYlpVabm-kXAaEUgg2odQ-GTZ4HyAaTOaEfPmxjYTqWyrAnGnSQ1RPMlOT2y3rtmsPF2FF0=w1920-h216-n",
+      "colorRgb": "#039be5"
+     },
+     {
+      "id": "sticky_notes",
+      "backgroundImageLink": "https://lh5.googleusercontent.com/proxy/UQ3zURt8as-FSzUcbkQQno8Dtk1oHeh38CyecfxIhSZArj6OIQ_ZTFR4sblspJxgHCKJKs4DSZB35UR4ReFEkN2SPo7OWqDRnMaz_MsMaVBXv0lw8kC_PTqfuQ=w1920-h216-n",
+      "colorRgb": "#0097a7"
+     },
+     {
+      "id": "table",
+      "backgroundImageLink": "https://lh5.googleusercontent.com/proxy/0A5qGh2DnHThdgzOJuZymFC7vt5aYKky-QWAuFjVROgK2Bxe47CT1sz72FhocQp0L-Lro5fK5kXKW5-uyVE7f-LhgokET-_Ndhe8BRQaGKzMhgms=w1920-h216-n",
+      "colorRgb": "#8d6e63"
+     },
+     {
+      "id": "travel",
+      "backgroundImageLink": "https://lh4.googleusercontent.com/proxy/eM-1oz45F6dCfOFQ2Yxr3ONAO7a549babd4jdMsBTqMErAeJ7fsk8EGPkDWi3IWoXxOA-cbftgzIDm0W7UCkepfhrONB_si1f8JfD3I0tt8IDT5hdA=w1920-h216-n",
+      "colorRgb": "#039be5"
+     },
+     {
+      "id": "waves",
+      "backgroundImageLink": "https://lh4.googleusercontent.com/proxy/MZfhMLHMVQQCU6ynMhZ_G_Byd4Yk2-zzKFADDpRM33LnFr9nRha-K3Iyk07IUOaQyuOPtMPVHkQ9-q13e2tXQMaDcF6DsTCnSxJBimZAQ5thT3lU=w1920-h216-n",
+      "colorRgb": "#ff5722"
+     },
+     {
+      "id": "waves_blue",
+      "backgroundImageLink": "https://lh3.googleusercontent.com/proxy/3culsw3bJyewo0Ql3IiKWm3HNeT54oEzDTVgNasW_V4L0FBZ-hazADPgfmLs06VL2p8b0vSyq9JFbtChXgRBAVX3iSZJeuRF19HYMwrOakDqL3GQMl_lZZ0=w1920-h216-n",
+      "colorRgb": "#5c6bc0"
+     },
+     {
+      "id": "wood",
+      "backgroundImageLink": "https://lh4.googleusercontent.com/proxy/FzzFqxrPJvhI24W_ZIbk7TNz3AYOArCU2m0UG4FNhc_2XPXGgcoF9B8FBIz6PsIctYn8aI5NKnU1NlsjHQEpu0DsMnEG8SDNopZZnwVzcFuQ3X4=w1920-h216-n",
+      "colorRgb": "#8d6e63"
+     }
+    ],
+    "canCreateTeamDrives": false,
+    "canCreateDrives": false
+   }
