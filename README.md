@@ -8,9 +8,9 @@ JSON is a popular data format in many areas.
 
 Reading and writing the JSON file in C++ is very painful and wasting time, especially when we are warp some RestFul API.
 
-There were some tool in C++ to manage this task like [json2cpp.py],[autojsoncxx],[quicktype],[QtJsonSerializer] ... ,but its eather not use Qt API or hard to install.
+There were some tool in C++ to manage this task like [json2cpp.py],[autojsoncxx],[quicktype],[QtJsonSerializer] ... ,but its either not use Qt API or hard to install.
 
-There is no dependicy of python modules.
+**This project support the nest JSON structures.**
 
 ## How to use
 
@@ -42,12 +42,19 @@ auto user = User(jsonObj);
 qDebug() << "User:" << user.toQJsonObject();
 ```
 
+## Dependency
+
+- Qt 5.0(or higher) for generated file.
+- Python 3
+
 ## Bugs
 
 I didn't process the variable name from the JSON file.
 So the variable name like {"image/jpeg":["application/vnd.google-apps.document"]} will turn to `QString image/jpeg;`.
 
 ## Reference
+
+[JSON Support in Qt](https://doc.qt.io/qt-5/json.html)
 
 [json2cpp.py]:      https://gist.github.com/soharu/5083914
 [autojsoncxx]:      https://netheril96.github.io/autojsoncxx/

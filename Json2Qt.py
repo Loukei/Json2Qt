@@ -295,7 +295,7 @@ class Generator:
     
     @staticmethod
     def defineClass(qclass:QtClass,isPrivateMember:bool = False):
-        ans = Generator.defineClassConstructor(qclass)
+        ans = Generator.defineClassConstructor(qclass) + '\n'
         ## declare class to QJsonObject function
         ans += Generator.defineClassQJsonObjectFunc(qclass) + '\n'
         if isPrivateMember:
