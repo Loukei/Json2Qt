@@ -19,12 +19,15 @@ python Json2Qt.py -i user.json
 ```
 
 The json file:
+
 ![img](user_json.png)
 
 will create to `user.h`:
+
 ![img](user_h.png)
 
 and `user.cpp`:
+
 ![img](user_cpp.png)
 
 1. Add the generated file `user.h` and `user.cpp` to your project.
@@ -50,7 +53,20 @@ qDebug() << "User:" << user.toQJsonObject();
 ## Bugs
 
 I didn't process the variable name from the JSON file.
-So the variable name like {"image/jpeg":["application/vnd.google-apps.document"]} will turn to `QString image/jpeg;`.
+So the variable name like `{"image/jpeg":["application/vnd.google-apps.document"]}` will turn to `QString image/jpeg;`.
+
+## Relate work
+
+**Qt Code Generator:**
+
+- [Qface](https://github.com/Pelagicore/qface)
+- [CppCodeGenerator](https://github.com/emloughl/CppCodeGenerator)
+or any other IDL code generator support Qt.
+
+**Template Engine:**
+
+Using the string-based method to generate code is inflexible and hard to read.
+- [Jinja 2](https://jinja.palletsprojects.com/en/2.11.x/)
 
 ## Reference
 
