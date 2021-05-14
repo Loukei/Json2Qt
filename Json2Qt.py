@@ -3,7 +3,7 @@
 
 A Qt code generator to automatically translate JSON to Qt class type.
 
-將JSON檔案轉成c++類別，並使用Qt的資料型態以及Qt的JSON模組轉換工具
+將JSON檔案轉成c++類別，並使用Qt的資料型態以及Qt的JSON模組轉換工具。
 
 https://github.com/Loukei/Json2Qt.git
 '''
@@ -15,18 +15,26 @@ from os import path as os_path
 
 class QtProperty:
     '''
-    保存一個屬性，包含屬性名稱or容器型別(如果有)or參數類型
+    紀錄一個生成Qt資料物件所需的屬性，包含屬性名稱or容器型別(如果有)or參數類型
+    name:屬性名稱
+    baseType: bool/int/double/QString/{classname}
+    islist:若true表示這是一個list保存的屬性
+    
+    ## 舉例
+    {"age","int",false} = int age;
+    {"friends","string",true} = QList<QString> friends;
+    {"users","User",true} = QList<User> users;
 
-    ## 建構:
+    ## 建構子:
     QtProperty('name', str) = QString name;
     QtProperty('user',dict,True) = QList<User> user;
     QtProperty.formValue('items',[1,2,3]) = QList<int> items;
 
-    ## 檢查:
+    ## 屬性檢查:
     isQList() 是否為list
     isClass() 是否內部為Class型態，與isQList()不為互斥
 
-    ## 
+    ## 列印型別
     typeStr() 回傳型別的字串，比如"QList<User>","QList<int>","User","double"等
 
     ## 靜態函數
@@ -103,6 +111,9 @@ class QtProperty:
 
     @staticmethod
     def converterFunc(typeStr:str)->str:
+        '''
+        將輸入的對應型別(以字串表示)輸出對應的轉換函式
+        '''
         if typeStr == 'bool':
             return 'toBool()'
         elif typeStr == 'int':
@@ -117,6 +128,11 @@ class QtProperty:
             return 'toArray()'
 
 class QtClass:
+    '''
+    保存一個c++/Qt class所需的資訊
+    name: 類別名稱
+    attributes: QtProperty的List
+    '''
     def __init__(self,name:str,attributes:list):
         self.name = QtProperty.capitalStyle(name)
         self.attributes = attributes
