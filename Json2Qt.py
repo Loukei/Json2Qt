@@ -7,11 +7,11 @@ A Qt code generator to automatically translate JSON to Qt class type.
 
 https://github.com/Loukei/Json2Qt.git
 '''
+#!/usr/bin/python3
 import argparse
-import json
-from typing import List
-import sys
-import os
+from json import loads as json_loads
+from typing import List 
+from os import path as os_path
 
 class QtProperty:
     '''
@@ -378,9 +378,9 @@ def main(filename:str):
         print("Can't open/read file.")
         return
     # use json module turn file to dict struct
-    data:dict = json.loads(content)
+    data:dict = json_loads(content)
     # get class name form file name
-    classname = os.path.basename(filename).split('.')[0]
+    classname = os_path.basename(filename).split('.')[0]
     # Use Generator turn data to QtClass list
     g = Generator(classname,data,False)
     # generate classname.h
@@ -394,7 +394,7 @@ def main(filename:str):
     pass
 
 def validate_file(f):
-    if not os.path.exists(f):
+    if not os_path.exists(f):
         # Argparse uses the ArgumentTypeError to give a rejection message like:
         # error: argument input: x does not exist
         raise argparse.ArgumentTypeError("{0} does not exist".format(f))
