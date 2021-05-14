@@ -50,6 +50,8 @@ qDebug() << "User:" << user.toQJsonObject();
 - Qt 5.0(or higher) for generated file.
 - Python 3
 
+**Check Pipfile if you like pipenv**
+
 ## Bugs
 
 I didn't process the variable name from the JSON file.
