@@ -6,7 +6,7 @@ A Qt code generator to automatically translate JSON to Qt class type.
 
 JSON is a popular data format in many areas. 
 
-Reading and writing the JSON file in C++ is very painful and wasting time, especially when we are warp some RestFul API.
+Reading and writing the JSON file then convert to C++ struct/class is very painful and waste time, especially when JSON Data has dozens of attributes.
 
 There were some tool in C++ to manage this task like [json2cpp.py],[autojsoncxx],[quicktype],[QtJsonSerializer] ... ,but its either not use Qt API or hard to install.
 
@@ -16,6 +16,12 @@ There were some tool in C++ to manage this task like [json2cpp.py],[autojsoncxx]
 
 ``` bash
 python Json2Qt.py -i user.json
+```
+
+or try Build/Json2Qt.exe(Win10-x64):
+
+```bash
+Json2Qt -i user.json
 ```
 
 The json file:
