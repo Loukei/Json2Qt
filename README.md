@@ -18,7 +18,7 @@ There were some tool in C++ to manage this task like [json2cpp.py],[autojsoncxx]
 python Json2Qt.py -i user.json
 ```
 
-or try Build/Json2Qt.exe(Win10-x64):
+or try [Json2Qt.exe](https://github.com/Loukei/Json2Qt/releases):
 
 ```bash
 Json2Qt -i user.json
