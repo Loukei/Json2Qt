@@ -56,7 +56,7 @@ qDebug() << "User:" << user.toQJsonObject();
 - Qt 5.0(or higher) for generated file.
 - Python 3
 
-**Check [Pip](https://github.com/Loukei/Json2Qt/blob/main/Pipfile) if you like pipenv**
+**Check [Pipfile](https://github.com/Loukei/Json2Qt/blob/main/Pipfile) if you like pipenv**
 
 ## Bugs
 
