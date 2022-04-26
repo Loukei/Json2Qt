@@ -10,8 +10,6 @@ Reading and writing the JSON file then convert to C++ struct/class is very painf
 
 There were some tool in C++ to manage this task like [json2cpp.py],[autojsoncxx],[quicktype],[QtJsonSerializer] ... ,but its either not use Qt API or hard to install.
 
-**This project support the nest JSON structures.**
-
 ## How to use
 
 ``` bash
@@ -64,6 +62,8 @@ I didn't process the variable name from the JSON file.
 So the variable name like `{"image/jpeg":["application/vnd.google-apps.document"]}` will turn to `QString image/jpeg;`.
 
 ## Relate work
+
+- [json2cpp](https://github.com/kcris/json2cpp)
 
 **Qt Code Generator:**
 
